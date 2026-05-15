@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "thechadmin",
+  "compatibility_date": "2026-05-15",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "."
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  // Keep workers.dev URL active for now so we can verify the build before
+  // the custom domain takes over. Flip to false once thechadmin.com is live.
+  "workers_dev": true,
+  "preview_urls": false
+}
