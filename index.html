@@ -4,20 +4,34 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Chad Dodson — AI / Agentic Engineering</title>
-<meta name="description" content="Cisco Technical Consulting Engineer specializing in Generative AI, Model Context Protocol (MCP) servers, and AI-augmented development. Cisco AI Technical Practitioner (AITECH) certified.">
+<meta name="description" content="Cisco Technical Consulting Engineer specializing in Generative AI, Model Context Protocol (MCP) servers, and AI-augmented development. Cisco AI Technical Practitioner (AITECH). 15+ year Dungeon Master and people-first leader.">
 <meta name="author" content="Chad Dodson">
 
-<!-- Open Graph -->
 <meta property="og:title" content="Chad Dodson — AI / Agentic Engineering">
-<meta property="og:description" content="Cisco TCE building Generative AI, MCP servers, and AI-augmented dev tooling.">
+<meta property="og:description" content="Cisco TCE building Generative AI, MCP servers, and AI-augmented dev tooling. People-first leader, lifelong learner, 15+ year Dungeon Master.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://thechadmin.com">
 <meta property="og:image" content="https://thechadmin.com/assets/badge.png">
 
 <link rel="icon" type="image/png" href="assets/badge.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+<!-- ============================================================ ORNAMENT (reusable) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="ornament-divider" viewBox="0 0 240 16">
+      <line x1="0"  y1="8" x2="98"  y2="8" stroke="currentColor" stroke-width="1"/>
+      <path d="M104,8 C108,4 112,4 116,8 C112,12 108,12 104,8 Z" fill="currentColor"/>
+      <path d="M120,2 L128,8 L120,14 L112,8 Z" fill="none" stroke="currentColor" stroke-width="1"/>
+      <path d="M124,8 C128,4 132,4 136,8 C132,12 128,12 124,8 Z" fill="currentColor"/>
+      <line x1="142" y1="8" x2="240" y2="8" stroke="currentColor" stroke-width="1"/>
+    </symbol>
+  </defs>
+</svg>
 
 <!-- ============================================================ NAV -->
 <nav class="nav">
@@ -26,10 +40,10 @@
     <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">Menu</button>
     <div class="nav-links">
       <a href="#about">About</a>
+      <a href="#drives">What Drives Me</a>
       <a href="#skills">Skills</a>
       <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
-      <a href="#education">Education</a>
       <a href="#contact">Contact</a>
     </div>
   </div>
@@ -43,19 +57,17 @@
     <div class="panel hero-panel">
       <div>
         <h1>Hello, I'm Chad Dodson</h1>
-        <p class="hero-tagline">AI / Agentic Engineering &nbsp;·&nbsp; Cisco AI Technical Practitioner</p>
+        <p class="hero-tagline">A people-first leader who builds with AI.</p>
         <p class="hero-summary">
-          Cisco Technical Consulting Engineer with 6+ years of experience turning generative-AI concepts into production tooling.
-          <strong>Project Lead</strong> on Cisco's <strong>EasyBEMS Gen AI Enforcer</strong> escalation review platform.
-          Independent builder of multiple <strong>Model Context Protocol (MCP)</strong> servers and bridges — each shipped end-to-end via AI-augmented development.
+          Cisco Technical Consulting Engineer. <strong>Project Lead</strong> on Cisco's <strong>EasyBEMS Gen AI Enforcer</strong>. Cisco AI Technical Practitioner (AITECH). Independent builder of <strong>Model Context Protocol (MCP)</strong> servers across .NET, Node.js, and Python. Fifteen-plus year Dungeon Master, Dale Carnegie Skills for Success graduate, and lifelong learner who treats people as the most important system in any technical environment.
         </p>
         <div class="hero-cta">
           <a href="#contact" class="btn btn-primary">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
             Get In Touch
           </a>
           <a href="assets/Chad_Dodson_Resume.pdf" class="btn btn-ghost" target="_blank" rel="noopener">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
             Download Resume
           </a>
         </div>
@@ -72,19 +84,73 @@
   <div class="container">
     <div class="panel">
       <div class="panel-header">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="16" y2="12"/><line x1="12" x2="12.01" y1="8" y2="8"/></svg>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
         About Me
       </div>
-      <div class="panel-body about">
-        <p>
-          I'm a Cisco Technical Consulting Engineer who's spent the last year turning generative-AI concepts into production tooling that real Cisco engineers use every day. As <strong>Project Lead</strong> on the <strong>EasyBEMS Gen AI Enforcer</strong>, I built and shipped a live GenAI escalation review platform that ingests TCE escalations and evaluates them against acceptance criteria defined by each Business Unit. The platform has been in production for ten months, partnered with Cisco Technical Leadership, with an active roadmap integrating Sherlock/Watson.
+      <div class="panel-body prose">
+        <p class="lead">I'm not a coder by nature. I'm a people person who learned to build things — and discovered along the way that the two skills are the same skill.</p>
+        <p class="dropcap">
+          Fifteen-plus years behind a Dungeon Master's screen taught me long before any classroom did that the real challenge of any system — software, organization, party of adventurers — is the humans inside it. That's the lens I bring to everything I do at Cisco: leadership over keystrokes, mentorship over mandates, and the conviction that helping the people around you succeed is the most leveraged thing an engineer can do.
         </p>
         <p>
-          Outside of Cisco, I build <strong>Model Context Protocol (MCP)</strong> servers and bridges end-to-end across C# / .NET, Node.js / TypeScript, and Python — designing tools that let LLMs interact with real software systems. Everything I build, I build with AI-augmented development: daily Windsurf / Cascade practitioner, comfortable across Claude Code, Cursor, GitHub Copilot, and Codex.
+          I'm a <strong>Cisco Technical Consulting Engineer</strong> who spent the last year as Project Lead on a production GenAI platform — the <strong>EasyBEMS Gen AI Enforcer</strong>. I'm a <strong>Cisco AI Technical Practitioner (AITECH)</strong>. I build <strong>Model Context Protocol (MCP)</strong> servers in C# / .NET, Node.js, and Python — but the technology is the means, not the end. Every project I ship is built with AI-augmented development because I'd rather amplify what one curious person can deliver than fake being something I'm not.
         </p>
         <p>
-          Based in South Carolina. <strong>Cisco AI Technical Practitioner (AITECH)</strong> certified.
+          I live in South Carolina, run weekly tabletop games, and have somehow turned a Tri-County Tech Associate's degree into the kind of career that lets me wear all those identities at the same time.
         </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ WHAT DRIVES ME -->
+<section id="drives">
+  <div class="container">
+    <div class="panel">
+      <div class="panel-header">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6"/><path d="M12 22v-2"/><circle cx="12" cy="14" r="6"/><path d="M9 11l3 3 3-3"/></svg>
+        What Drives Me
+      </div>
+      <div class="panel-body">
+        <div class="drivers">
+
+          <div class="driver">
+            <div class="driver-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m21.5 8.5-.93-1.85a2 2 0 0 0-1.79-1.1H5.22a2 2 0 0 0-1.79 1.1L2.5 8.5"/><path d="M2.5 8.5h19v9a2 2 0 0 1-2 2h-15a2 2 0 0 1-2-2z"/><path d="M7 13h.01"/><path d="M11 13h.01"/><path d="M15 13h.01"/></svg>
+            </div>
+            <div>
+              <p class="driver-title">The Dungeon Master's Lens</p>
+              <p class="driver-body">
+                Long before I was managing escalations or leading a project, I was managing four to seven players at once around a kitchen table. Fifteen-plus years of running tabletop games taught me improvisation under pressure, narrative leadership, conflict resolution between strong personalities, and how to design systems that survive contact with real humans. <strong>Every leadership lesson I've earned at Cisco I learned at a gaming table first.</strong>
+              </p>
+            </div>
+          </div>
+
+          <div class="driver">
+            <div class="driver-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <div>
+              <p class="driver-title">Skills for Success</p>
+              <p class="driver-body">
+                I completed Dale Carnegie's <em>Skills for Success</em> course and was selected as the <strong>first Remote Graduate Assistant in company history</strong> — translating an in-person leadership development model into a remote-first format during the COVID era. The program reinforced what DMing taught me: that the act of helping another person find their footing is its own kind of expertise. I've stayed connected as a graduate assistant ever since.
+              </p>
+            </div>
+          </div>
+
+          <div class="driver">
+            <div class="driver-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <div>
+              <p class="driver-title">People-First Leadership</p>
+              <p class="driver-body">
+                At Cisco I've initiated cross-technology troubleshooting forums, mentored multiple engineers transitioning to TAC from CxA, hosted the <strong>CX Week People Leader's Q&amp;A</strong> panel, and presented to Directors at the <strong>Collaboration Innovation Forum</strong>. I've maintained <strong>100% CSAT</strong> across multiple consecutive quarters not because I'm a fast typer, but because I treat each customer escalation like a story that needs an ending the customer can live with.
+              </p>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   </div>
@@ -129,15 +195,15 @@
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="8" x="2" y="2" rx="2" ry="2"/><rect width="20" height="8" x="2" y="14" rx="2" ry="2"/><line x1="6" x2="6.01" y1="6" y2="6"/><line x1="6" x2="6.01" y1="18" y2="18"/></svg>
             <div>
               <p class="label">Engineering</p>
-              <p class="body">Git / GitHub · Docker (Cisco HDS / ECP node deployments) · SSH / SCP deployment automation · Agile / Jira</p>
+              <p class="body">Git / GitHub · Docker (Cisco HDS / ECP node deployments) · SSH / SCP deployment automation · Backend log analysis: Kibana, Wireshark, HAR/Fiddler, CUCM trace logs · Agile / Jira</p>
             </div>
           </div>
 
-          <div class="skill">
+          <div class="skill" style="grid-column: 1 / -1;">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
             <div>
-              <p class="label">Leadership</p>
-              <p class="body">Cross-functional mentoring · Technical writing · Project leadership · Stakeholder communication · 100% CSAT across multiple consecutive quarters</p>
+              <p class="label">Leadership &amp; Communication</p>
+              <p class="body">Cross-functional mentoring · Project leadership · Technical writing · Stakeholder communication · Public speaking · Conflict resolution · 100% CSAT across multiple consecutive quarters · Dale Carnegie Skills for Success Graduate Assistant</p>
             </div>
           </div>
 
@@ -166,10 +232,18 @@
             <span class="role-date">May 2020 – Present</span>
           </div>
           <ul>
-            <li><strong>Project Lead</strong> on the <strong>EasyBEMS Gen AI Enforcer</strong> — a production GenAI escalation review platform that ingests Technical Consulting Engineer (TCE) escalation submissions and evaluates them against acceptance criteria defined by each Business Unit. Currently live, partnered with Cisco Technical Leadership; active roadmap integrates Cisco Sherlock/Watson for further automation.</li>
-            <li>Established CloudCollab within ICE_T and shipped its first ICE_T automations; selected by Vivek Singh as Project Manager to push the Hybrid Calendar GPS module to completion.</li>
-            <li>Founded cross-technology troubleshooting forums; mentored multiple CloudCollab engineers from CxA. Presented at the Collaboration Innovation Forum and hosted the CX Week People Leader's Q&amp;A.</li>
+            <li><strong>Project Lead</strong> on the <strong>EasyBEMS Gen AI Enforcer</strong> — a live GenAI escalation review platform that ingests Technical Consulting Engineer (TCE) escalation submissions and evaluates them against acceptance criteria defined by each Business Unit. Currently in production, partnered with Cisco Technical Leadership; active roadmap brings Cisco Sherlock/Watson into the loop over the coming months.</li>
+            <li>Tier 2 engineering escalation point covering the full Webex Cloud and Hybrid stack: <strong>Webex Call/Message/Meet</strong>, <strong>CMR Cloud and Hybrid</strong>, <strong>Webex Hybrid Services</strong> with phone/cloud/edge-registered endpoints, <strong>Control Hub</strong> user/feature administration, <strong>Cisco Video Interop (CVI) for Microsoft Teams</strong>, and <strong>Webex VDI</strong>. Cases ranged from severity-4 product questions to severity-1 mass outages.</li>
+            <li>Performed daily backend log and database analysis using <strong>Kibana</strong>, <strong>Wireshark</strong>, <strong>HAR/Fiddler</strong>, and CUCM / Calendar Connector / Client / Device trace logs. Built lab environments to replicate complex customer issues for resolution and engineering hand-off.</li>
+            <li>Established <strong>CloudCollab</strong> within ICE_T and shipped its first ICE_T automations; selected by Vivek Singh as Project Manager to push the <strong>Hybrid Calendar GPS module</strong> to completion.</li>
+            <li>Initiated and co-led weekly cross-technology troubleshooting forums to streamline collaboration across overlapping technologies.</li>
+            <li>Mentored multiple CloudCollab engineers transitioning from CxA — coaching, backlog management, and hands-on case troubleshooting through their onboarding.</li>
+            <li>Presented at the <strong>Collaboration Innovation Forum</strong> to Directors; hosted the <strong>CX Week People Leader's Q&amp;A</strong> panel. Maintained <strong>100% CSAT</strong> across multiple consecutive quarters.</li>
           </ul>
+        </div>
+
+        <div class="ornament" aria-hidden="true">
+          <svg width="240" height="16" style="color:var(--copper)"><use href="#ornament-divider"/></svg>
         </div>
 
         <div class="role">
@@ -181,8 +255,16 @@
             <span class="role-date">Mar 2019 – Mar 2020</span>
           </div>
           <ul>
-            <li>Operated as disaster management and recovery within Tier 2; specialized in nationwide community-service Wi-Fi support. Acted as SME and team lead, authoring procedural documentation that streamlined issue resolution.</li>
+            <li>Disaster management and recovery within Tier 2; remotely troubleshot and supported nationwide community-service Wi-Fi solutions across the United States.</li>
+            <li>Frequent technologies: <strong>AAA / RADIUS authentication</strong>, Wi-Fi performance tuning, firewall configuration, switch configuration.</li>
+            <li>Acted as Subject Matter Expert and team lead — guided colleagues through escalated cases and collaborated with leadership on systemic improvements to the queue.</li>
+            <li>Authored a wide array of <strong>Methods of Procedure (MOPs)</strong> to expedite troubleshooting and distribute specialized knowledge across the team.</li>
+            <li>Diagnosed and resolved site-wide outages; coordinated with third-party vendors for installation of equipment necessary for daily operations.</li>
           </ul>
+        </div>
+
+        <div class="ornament" aria-hidden="true">
+          <svg width="240" height="16" style="color:var(--copper)"><use href="#ornament-divider"/></svg>
         </div>
 
         <div class="role">
@@ -194,7 +276,10 @@
             <span class="role-date">Sep 2018 – Mar 2019</span>
           </div>
           <ul>
-            <li>Provided remote VoIP support, consistently resolving tickets within SLA requirements.</li>
+            <li>Owned the <strong>Home Depot VoIP Tier I</strong> queue across the United States, Canada, and Puerto Rico — providing remote support to on-the-ground Home Depot associates.</li>
+            <li>Performed <strong>MACDs</strong> (Move, Add, Change, Delete) while maintaining ticket SLA requirements through effective coordination and prioritization.</li>
+            <li>Coordinated with team across multiple shifts to prevent overlap of engineers working the same issues.</li>
+            <li>Diagnosed and gathered relevant context for Tier 2 hand-offs.</li>
           </ul>
         </div>
 
@@ -212,7 +297,7 @@
         Independent Projects
       </div>
       <div class="panel-body">
-        <p style="margin-top:0;margin-bottom:18px;color:var(--text);">
+        <p style="margin-top:0;margin-bottom:22px;color:var(--text);font-family:'Cormorant Garamond',serif;font-size:18px;font-style:italic;color:var(--copper);">
           Builder, author, and contributor on multiple Model Context Protocol (MCP) projects — each shipped end-to-end using Windsurf-driven AI-augmented development.
         </p>
 
@@ -224,7 +309,7 @@
             <p class="project-name">Kenshi MCP Server</p>
             <p class="project-qualifier">Built from scratch · C# / .NET 9</p>
             <p class="project-body">
-              A custom Model Context Protocol server I designed and built ground-up to make a 13-year-old game AI-moddable through any MCP client. Wraps the OpenConstructionSet SDK to expose gamedata parsing, mod authoring, and load-order management as MCP tools — turning a complex modding workflow into a conversation with an LLM.
+              A custom Model Context Protocol server designed and built ground-up to make a 13-year-old game AI-moddable through any MCP client. Wraps the OpenConstructionSet SDK to expose gamedata parsing, mod authoring, and load-order management as MCP tools — turning a complex modding workflow into a conversation with an LLM.
             </p>
             <div class="project-meta">
               <span class="project-tag">C# / .NET 9</span>
@@ -309,7 +394,7 @@
           </div>
           <div class="edu-card">
             <p class="h">Associate of Business Administration</p>
-            <p class="s">Tri-County Technical College · Pendleton, SC</p>
+            <p class="s">Tri-County Technical College · Pendleton, SC · National Honors Society</p>
           </div>
           <div class="edu-card">
             <p class="h">Dale Carnegie Skills for Success</p>
@@ -369,8 +454,9 @@
 <!-- ============================================================ FOOTER -->
 <footer class="footer">
   <div class="container">
-    <p><span class="name">Chad Dodson</span> &nbsp;·&nbsp; AI / Agentic Engineering &nbsp;·&nbsp; Cisco AI Technical Practitioner</p>
-    <p>© 2026 Chad Dodson · All rights reserved · <a href="mailto:dodsonchad1250@gmail.com" style="color:var(--text-mute);">dodsonchad1250@gmail.com</a></p>
+    <p><span class="name">CHAD DODSON</span></p>
+    <p>AI / Agentic Engineering &nbsp;·&nbsp; Cisco AI Technical Practitioner</p>
+    <p>© 2026 Chad Dodson · All rights reserved · <a href="mailto:dodsonchad1250@gmail.com">dodsonchad1250@gmail.com</a></p>
   </div>
 </footer>
 
